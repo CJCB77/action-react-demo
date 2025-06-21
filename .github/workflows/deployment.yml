@@ -1,7 +1,6 @@
 name: Test project
 on: 
-    push
-
+    [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest # Every job gets their own runner
